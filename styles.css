@@ -1,0 +1,161 @@
+body
+{
+    padding: 20px;
+    background-color: floralwhite;
+    font-size: 16px;
+}
+
+h1
+{
+    font-weight: bold;
+    font-family: Times, serif;    
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #666666;
+    padding-bottom: 5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: red;
+}
+
+p
+{
+    font-family: inherit;
+    text-align: justify;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:link
+{
+    color: blue;
+}
+
+a:visited
+{
+    color: purple;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: green;
+    font-style: italic;
+}
+
+table
+{
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center
+}
+
+th
+{
+    background-color: cyan;
+    text-transform: uppercase;
+}
+
+tr.even
+{
+    background-color: #efefef;
+}
+
+td:hover
+{
+    background-color: #c3e6e5;
+}
+
+img.align-center
+{
+    display: block;
+    margin: 0px auto;
+}
+
+img
+{
+    border-radius: 10px;
+}
+
+input
+{
+    color: #5a5854;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 3px 3px 3px 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+input:focus, input:hover
+{
+    background-color: #ffffff;
+    border: 1px solid #b1e1e4;
+}
+
+textarea
+{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+legend
+{
+    text-transform: uppercase;
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label
+{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+input[type = "submit"]
+{
+    border: 1px solid #006633;
+    background-color: #004c00;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input[type = "submit"]:hover
+{
+    border: 1px solid #006633;
+    background-color: #00cc33;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+ul
+{
+    list-style-type: circle;
+}
+
+ul.work
+{
+    list-style-image: url("magnifying-glass.jpg");
+}
+
+li
+{
+    margin: 10px 0px 0px 0px;
+}
