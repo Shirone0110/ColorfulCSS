@@ -2,19 +2,21 @@ body
 {
     padding: 20px;
     background-color: floralwhite;
-    font-size: 16px;
+    background-image: url("wallpaper.jpg");
+    font-size: 24px;
 }
 
 h1
 {
     font-weight: bold;
     font-family: Times, serif;    
-    font-size: 24px;
+    font-size: 40px;
     text-shadow: 1px 1px 2px #666666;
     padding-bottom: 5px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: red;
+    text-align: center;
 }
 
 p
@@ -47,15 +49,17 @@ a:hover
 
 table
 {
-    width: 600px;
+    width: 1000px;
     border-collapse: collapse;
+    font-size: inherit;
 }
 
 th, td
 {
     border: 1px solid;
     border-collapse: collapse;
-    text-align: center
+    text-align: center;
+    font-size: inherit;
 }
 
 th
@@ -72,12 +76,6 @@ tr.even
 td:hover
 {
     background-color: #c3e6e5;
-}
-
-img.align-center
-{
-    display: block;
-    margin: 0px auto;
 }
 
 img
@@ -106,6 +104,7 @@ textarea
     border-radius: 5px;
     margin-left: 10px;
     margin-top: 5px;
+    font-size: 24px;
 }
 
 legend
@@ -116,14 +115,25 @@ legend
     padding: 10px 20px;
     margin-bottom: 10px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 24px;
+    letter-spacing: 0.08em;
     font-weight: bold;
+}
+
+fieldset
+{
+    width: 530px;
 }
 
 label
 {
     padding-left: 10px;
     padding-bottom: 5px;
+}
+
+input
+{
+    font-size: 24px;
 }
 
 input[type = "submit"]
@@ -152,10 +162,46 @@ ul
 
 ul.work
 {
-    list-style-image: url("magnifying-glass.jpg");
+    list-style-image: url("magnifying-glass.png");
 }
 
 li
 {
     margin: 10px 0px 0px 0px;
+}
+
+.pic
+{
+    width: 250px;
+    float: left;
+    margin: 10px;
+    height: 350px;
+}
+
+figure
+{
+    display: block;
+    width: 250px;
+    height: 330px;
+    padding: 9px;
+    text-align: center;
+}
+
+figure img
+{
+    width: 250px;
+    height: 312px;
+    border: 1px solid #d6d6d6;
+}
+
+figcaption
+{
+    margin-top: 10px;
+}
+
+img.align-left
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
