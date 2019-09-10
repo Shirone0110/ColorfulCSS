@@ -1,10 +1,19 @@
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('robotoslab-regular.eot');
+    src: url('robotoslab-regular.eot?#iefix') format('embedded-opentype'), url('robotoslab-regular.woff') format('woff'),
+    url('RobotoSlab-Regular.ttf') format('truetype'), 
+    url('robotoslab-regular.svg#Roboto') format('svg');
+}
+
 body
 {
     padding: 20px;
     background-color: floralwhite;
     background-image: url("wallpaper.jpg");
     font-size: 24px;
-    font-family: serif;
+    font-family: Roboto, serif;
 }
 
 h1
@@ -109,7 +118,7 @@ textarea
     margin-left: 10px;
     margin-top: 5px;
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: inherit;
 }
 
 legend
@@ -139,7 +148,7 @@ label
 input
 {
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: inherit;
 }
 
 input[type = "submit"]
